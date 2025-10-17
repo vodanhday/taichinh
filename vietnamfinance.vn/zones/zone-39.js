@@ -1,0 +1,10 @@
+document.getElementById("zone-39").innerHTML = '<div class="exp_qc_share" data-id="39" data-sleep="5"><div class="exp_qc_one active"><div class="adv header" id="ads_39" style="margin-top:20px;margin-bottom:0px;"><div class="e" style="margin-top:0px;"><a href="https://hdbank.com.vn/" target="_blank" rel="nofollow"><img loading="lazy" src="https://i.ex-cdn.com/vietnamfinance.vn/files/qc/2025/10/16/z7122781586051_ae7f9267527ba005204023ea03d2cb50.jpg" alt="Vietnam Finance" /></a></div></div></div><div class="exp_qc_one"><div class="adv header" id="ads_39" style="margin-top:20px;margin-bottom:0px;"><div class="e" style="margin-top:0px;"><a href="https://tinyurl.com/BAB-CGV" target="_blank" rel="nofollow"><img loading="lazy" src="https://i.ex-cdn.com/vietnamfinance.vn/files/qc/2025/10/03/300x250.png" alt="Vietnam Finance" /></a></div></div></div><div class="exp_qc_one"><div class="adv header" id="ads_39" style="margin-top:20px;margin-bottom:0px;"><div class="e" style="margin-top:0px;"><a href="https://dpm.vn/" target="_blank" rel="nofollow"><img loading="lazy" src="https://i.ex-cdn.com/vietnamfinance.vn/files/qc/2025/08/08/PVFCCo_300x230.jpg" alt="Vietnam Finance" /></a></div></div></div><div class="exp_qc_one"><div class="adv header" id="ads_39" style="margin-top:20px;margin-bottom:0px;"><div class="e" style="margin-top:0px;"><a href="https://www.pvcombank.com.vn/san-pham/ca-nhan/san-pham-vay/vay-mua-nha-xay-sua-nha?gidzl=6dadVJF9V4WVOoPoCjDxJHzd8NOfqYiOKZLs9tE3UqmFC2Ca8e8i40WsTInnXtiPNpeY8Z4OX6iDCyH_HW" target="_blank" rel="nofollow"><img loading="lazy" src="https://i.ex-cdn.com/vietnamfinance.vn/files/qc/2025/08/08/z6883348945911_aca983dd8d6a6ab01cf2c61907e73023.jpg" alt="Vietnam Finance" /></a></div></div></div></div>';
+var scripts = document.querySelectorAll('#zone-39 script');
+scripts.forEach((oldScript) => {
+    const script = document.createElement('script');
+    Array.from(oldScript.attributes).forEach(attr => {script.setAttribute(attr.name, attr.value);});
+    script.textContent = oldScript.textContent;
+    
+    oldScript.remove();
+    document.getElementById('zone-39').appendChild(script);
+});
